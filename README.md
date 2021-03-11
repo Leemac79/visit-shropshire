@@ -1,45 +1,114 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Visit Shropshire interactive webpage
 
-Welcome USER_NAME,
+## Milestone two project for code institute Interactive Front-end Development
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+# UX
 
-## Gitpod Reminders
+## Project Goals
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+To create a website that is fully interactive with the user that contains buttons that dispay different information depending on what the user selects.
+There will be five places that a user can visit within shropshire, each area will have a clickable button. Once a button is clicked for an area, the section
+below will display some key information as well as a map that can also be interacted with to display three different drop down markers on the google map. 
+These will be accommodation, places to eat and areas of interest. The idea is to help show what the est places in shropshire can offer and entice users to 
+physically come and visit these areas.
 
-`python3 -m http.server`
+## Am I responsive section
 
-A blue button should appear to click: *Make Public*,
+### Business Goals
 
-Another blue button should appear to click: *Open Browser*.
+* To create a new interactive website that promotes the attraction of places to visit within Shropshire.
+* Offer a fully interactive site that lets users discover more general key information about each place.
+* Upon a user selecting a place to visit, a map will be displayed which can then be interacted with to show places to stay, eat and area's of interest to visit.
+* Provide a well presented webpage offering a good interactive user experience that will want to make the user explore all the options available.
+* Within each place to visit alongside the interactive google map will be some key information about each place the have selected.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### User Goals
 
-A blue button should appear to click: *Make Public*,
+* A clear and easy to use site giving a positive user experience with good interactivity.
+* To be able to find out more about shropshire and to explore each place separately. 
+* To be provided with a map to show the area, which would include factors such as accommodation, places to eat and areas to visit.
+* To maybe have links to other information sources to find out even more, such as Wikipedia.
 
-Another blue button should appear to click: *Open Browser*.
+## Layout
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-## Updates Since The Instructional Video
+### Wireframe
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* [Home Page - Desktop](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
+* [Home Page - Mobile](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+# Features
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Existing Features
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Features left to implement in the future
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+# Technologies Used
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Languages
+* HTML
+* CSS
+* Bootstrap
 
---------
+### Frameworks, Libraries & Programs Used
 
-Happy coding!
+* Bootstrap 4.4.1:
+Bootstrap was used to assist with the responsiveness and styling of the website.
+
+* Hover.css:
+Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+
+* Google Fonts:
+Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+
+* Font Awesome:
+Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+
+* jQuery:
+jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+
+* Git:
+Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+
+* GitHub:
+GitHub is used to store the projects code after being pushed from Git.
+
+* Balsamiq:
+Baslsamiq was used to create the wireframes during the design process.
+
+* Chrome Development Tools:
+Chrome DT were used to consistently test the site and run reports from Lighthouse.
+
+# Testing &  Validation
+
+The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of this project to ensure there were no syntax errors on each page.
+
+* https://validator.w3.org/
+* https://jigsaw.w3.org/css-validator/
+
+
+### Devices Tested
+
+
+
+### Browsers Tested
+
+
+
+# Bugs and fixes
+
+
+
+# Deployment
+My website is currently deployed on Github Pages - 
+
+
+# Acknowledgements
+
+
+
+* The Code Institute https://codeinstitute.net/
+
+* Bootstrap https://getbootstrap.com/docs/5.0/getting-started/introduction/ for creating various parts of my webpage to help the layout and responsiveness.
