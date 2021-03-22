@@ -29,13 +29,21 @@ physically come and visit these areas.
 * To be provided with a map to show the area, which would include factors such as accommodation, places to eat and areas to visit.
 * To maybe have links to other information sources to find out even more, such as Wikipedia.
 
+### User Stories
+
+As a user I would like to have a website that offers a general guide to places I could visit within the county of Shropshire. To be able to see each town/place
+indiviually would be nice by selecting different options. I would also like to see a map of the area I select whereby I could also select other options for key things
+such as place I could stay while visiting, places to eat and drink and maybe also some areas of interest such a historical sites. Some key information on the areas would
+also be good, with possible link to other information sources where I could read about them in more detail should I wish to do so. Having a clean and clear interactive site
+would make my visit more enjoyable.
+
 ## Layout
 
 
 ### Wireframe
 
-* [Home Page - Desktop](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
-* [Home Page - Mobile](https://github.com/Leemac79/Gym-Startup/blob/master/assets/wireframes/home-screen.png)
+* [Home Page - Desktop](https://github.com/Leemac79/visit-shropshire/blob/master/assets/images/visit-shropshire-desktop.png)
+* [Home Page - Mobile](https://github.com/Leemac79/visit-shropshire/blob/master/assets/images/visit-shropshire-mobile.png)
 
 
 # Features

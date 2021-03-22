@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600&display=swap');
+
+body {
+    font-family: 'Baloo 2', cursive , sans-serif;
+}
+
+/* ----------------------------------------Background Color section */
+
+#nav-bar {
+    background-color:  #653096;
+}
+
+#footer-bar {
+    background-color:  #653096;
+}
+
+/* ----------------------------------------Navbar section */
+
+#brand-logo {
+    width: 100%;
+    height: auto;
+}
+
+/* ----------------------------------------Hero Banner section */
+.hero-banner {
+    width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+/* ----------------------------------------Shropshire Overview section */
+
+.shopshire-overview {
+    padding: 15px;
+}
+
+/* ----------------------------------------Town Buttons section */
+
+.interactive-town-buttons {
+   display: flexbox;
+   justify-content: center;
+   padding: .5em;
+}
+
+.town-button {
+    background-color: #653096;
+    color: #fafafa;
+    margin: 10px;
+}
+
+/* ----------------------------------------footer section */
+.social-links li a i {
+    font-size: 40px;
+    line-height: 7px;
+    float: left;
+    color: #fafafa;
+    text-align: left;
+}
+
+.col-sm-4 {
+    text-align: left;
+    vertical-align: top;
+}
