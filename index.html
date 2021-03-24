@@ -49,32 +49,24 @@
     <section>
         <div class="interactive-town-buttons container-fluid col-12 row">
 
-                <button class="town-button btn" type="submit">Telford</button>
-                <button class="town-button btn" type="submit">Shrewsbury</button>
-                <button class="town-button btn" type="submit">Ludlow</button>
-                <button class="town-button btn" type="submit">Church Stretton</button>
-                <button class="town-button btn" type="submit">Ironbridge</button>
+            <button class="town-button btn" type="submit">Telford</button>
+            <button class="town-button btn" type="submit">Shrewsbury</button>
+            <button class="town-button btn" type="submit">Ludlow</button>
+            <button class="town-button btn" type="submit">Church Stretton</button>
+            <button class="town-button btn" type="submit">Ironbridge</button>
 
-            </div>
-    
+        </div>
+
     </section>
 
     <!-- Interactive Town Informtaion Section -->
 
     <section>
 
-        <div class="container">
+        <div class="infomation-map container">
             <div class="row">
-                <div class="col-sm">
-                    One of three columns
-                </div>
-                <div class="col-sm">
-                    One of three columns
-                </div>
-                <div class="col-sm">
-                    One of three columns
-                </div>
             </div>
+            <div id="map"></div>
         </div>
 
     </section>
@@ -118,6 +110,22 @@
             </ul>
         </div>
     </footer>
+
+
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 9,
+                center: {
+                    lat: 52.7101,
+                    lng: -2.7521
+                }
+            });
+        }
+    </script>
+
+    <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD87pMG0pcr7FYmxnrKnqkoMn_5j7nuKew&callback=initMap"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
