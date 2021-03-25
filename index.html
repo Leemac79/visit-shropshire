@@ -38,9 +38,12 @@
                 <h1>Let's Visit Shropshire</h1>
                 <p>Share in the secret: Not everyone knows about the wonders we have in Shropshire.
                     That’s OK. Some people don’t even know where Shropshire is.
-                    You’re one of the lucky ones. As you know – or soon will – our landlocked county is in the English
-                    Midlands,
-                    sharing a border with Wales to the west and four English counties to the north, east and south.</p>
+                    You’re one of the lucky ones. As you know – or soon will – Shropshire is a landlocked county in England,
+                    bordering Wales to the west, Cheshire to the north, Staffordshire to the east, and Worcestershire and Herefordshire to the south.
+                    Shopshire has many towns but below are what are considered to be the most popular locations to see to anyone
+                    who visits this beautiful part of the country.
+                </p>
+                <h1>Click below to find out where you will be visiting next!</h1>
             </div>
         </div>
     </section>
@@ -49,17 +52,17 @@
     <section>
         <div class="interactive-town-buttons container-fluid col-12 row">
 
-            <button class="town-button btn" type="submit">Telford</button>
-            <button class="town-button btn" type="submit">Shrewsbury</button>
-            <button class="town-button btn" type="submit">Ludlow</button>
-            <button class="town-button btn" type="submit">Church Stretton</button>
-            <button class="town-button btn" type="submit">Ironbridge</button>
+            <button class="town-button btn" id="telford" onclick="initialize()" type="button">Telford</button>
+            <button class="town-button btn" id="shrewsbury" onclick="initialize()" type="button">Shrewsbury</button>
+            <button class="town-button btn" id="ludlow" onclick="initialize()" type="button">Ludlow</button>
+            <button class="town-button btn" id="church-stretton" onclick="initialize()" type="button">Church Stretton</button>
+            <button class="town-button btn" id="ironbridge" onclick="initialize()" type="button">Ironbridge</button>
 
         </div>
 
     </section>
 
-    <!-- Interactive Town Informtaion Section -->
+    <!-- Interactive Town Informtaion & Map Section -->
 
     <section>
 
@@ -78,7 +81,7 @@
             <p class="text-left inline-item">Copyright &copy; Visit Shropshire</p>
             <ul class="list-inline social-links">
                 <li class="list-inline-item">
-                    <a target="_blank" href="https://en-gb.facebook.com/" rel="noopener">
+                    <a target="_blank" href="https://www.facebook.com/VisitShrop/" rel="noopener">
                         <i class="fab fa-facebook-square" aria-hidden="true"></i>
                         <span class="sr-only">Facebook</span>
                     </a>
@@ -130,6 +133,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/maps.js"></script>
 </body>
 
 </html>
